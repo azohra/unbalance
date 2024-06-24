@@ -29,7 +29,7 @@ Run the script with the partial path you want to un-balance. Do not includ the d
 
 **Example:**
 ```bash
-./unbalance.sh "show/ted (2024)"
+./unbalance.sh "tv/some-show (2024)"
 ```
 
 ### For a path that is already un-balanced, you would see
