@@ -3,7 +3,10 @@
 
 Unbalance is a script designed for MergerFS users who also utilize SnapRAID. It ensures that a specified path of data resides on a single disk in the pool. 
 
-I created unblance to help me migrate from an `mfs` create strategy to `epmfs` such that I could start using SnapRAID and never worry about hitting this quirk: https://sourceforge.net/p/snapraid/discussion/1677233/thread/8282fcf886/?limit=25#b71e/a288/884a/1d58. 
+I created unblance to help me migrate from an `mfs` create strategy to `epmfs` such that I could start using SnapRAID and never worry about hitting this quirk: 
+
+* https://sourceforge.net/p/snapraid/discussion/1677233/thread/8282fcf886/?limit=25#b71e/a288/884a/1d58.
+* https://www.reddit.com/r/Snapraid/comments/1clk039/comment/l2zk8t3/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
 
 ## Features
 - Ensures a specified path is located on only one disk.
