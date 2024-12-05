@@ -68,7 +68,7 @@ check_disk_space() {
 
 # Function to check and install packages
 check_and_install() {
-    local packages=("rclone")
+    local packages=("rsync")
 
     for pkg in "${packages[@]}"; do
         if ! command -v "$pkg" &> /dev/null; then
